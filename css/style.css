@@ -4,27 +4,47 @@
 }
 
 .carousel {
-    width: 400px;
-    height: 300px;
+    width: 700px;
+    height: 500px;
     overflow: hidden;
     position: absolute;
     top: 50%;
     left:50%;
-    transform: translate(-50%, -50%);   
+    transform: translate(-50%, -50%); 
+    border: 5px solid grey;
 }
 
 img {
-    width: 400px;
-    height: 300px;
+    width: 700px;
+   height: 500px;
 }
 
-li {
-    width: 400px;
-    height: 300px;
+.carousel li {
+    width: 700px;
+    height: 500px;
     list-style-type: none;
     float: left;
 }
 
-ul {
-    width: 2000px;
+.carousel ul {
+    width: 3500px;
 }
+
+.fa-angle-left{
+    position: absolute;
+    font-size: 80px;
+    top: 40%;
+    left: 1%;
+    color: #fff;
+    cursor: pointer;
+}
+
+.fa-angle-right {
+    position: absolute;
+    top: 40%;
+    right: 1%;
+    font-size: 80px;
+     color: #fff;
+    cursor: pointer;
+}
+
